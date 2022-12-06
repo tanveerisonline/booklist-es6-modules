@@ -91,7 +91,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository by using the command line : git clone https://github.com/tanveerisonline/courses
+Clone this repository by using the command line : git clone https://github.com/tanveerisonline/booklist-es6-modules.git
 
 ### Install
 
@@ -113,8 +113,6 @@ Use npm install after cloning this project
 You can deploy this project using:
 
 Github Pages.
-
-This project is not yet deployed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
