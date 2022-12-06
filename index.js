@@ -10,6 +10,13 @@ addBtn.addEventListener('click', () => {
   blankMessage();
 });
 
+const displayTime = () => setInterval(() => {
+  document.querySelector('#date').innerHTML = DateTimeFormat();
+}, 1000);
+
+// display time
+window.addEventListener('load', displayTime);
+
 const itemList = document.getElementById('menu-item-list');
 const itemForm = document.getElementById('menu-item-form');
 const itemContact = document.getElementById('menu-item-contact');
@@ -31,5 +38,5 @@ itemContact.addEventListener('click', () => {
 window.onload = () => {
   PageBoilerplate();
   blankMessage();
-  DateTimeFormat();
+  // DateTimeFormat();
 };
